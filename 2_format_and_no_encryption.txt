@@ -1,0 +1,285 @@
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:112] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:112] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/nvme0n1
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/external/src/lvm.rs:207] obtaining list of physical volumes
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt Some(MountInfo { source: "/dev/sda1", dest: "/cdrom", fstype: "iso9660", options: ["ro", "noatime", "nojoliet", "check=s", "map=n", "blocksize=2048"], dump: 0, pass: 0 })
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt Some(MountInfo { source: "/dev/sda3", dest: "/var/log", fstype: "ext4", options: ["rw", "relatime"], dump: 0, pass: 0 })
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt Some(MountInfo { source: "/dev/sda1", dest: "/cdrom", fstype: "iso9660", options: ["ro", "noatime", "nojoliet", "check=s", "map=n", "blocksize=2048"], dump: 0, pass: 0 })
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda2" has mount_opt None
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda3" has mount_opt Some(MountInfo { source: "/dev/sda3", dest: "/var/log", fstype: "ext4", options: ["rw", "relatime"], dump: 0, pass: 0 })
+[INFO distinst:crates/disks/src/config/disk_trait.rs:60] child_dev "/dev/sda1" has mount_opt Some(MountInfo { source: "/dev/sda1", dest: "/cdrom", fstype: "iso9660", options: ["ro", "noatime", "nojoliet", "check=s", "map=n", "blocksize=2048"], dump: 0, pass: 0 })
+[INFO distinst:src/auto/options/mod.rs:173] install options: skipping options on "/dev/sda"
+[INFO distinst:src/auto/options/mod.rs:152] found free sectors at the end on "/dev/nvme0n1": 1025 - 1953523120
+[INFO distinst:src/auto/options/mod.rs:178] found erase option on "/dev/nvme0n1": 1953525168 sectors
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/sda
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/sda
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/sda
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:112] obtaining partition information from /dev/sda2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:112] obtaining partition information from /dev/sda3
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/nvme0n1
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/nvme0n1
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/nvme0n1
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/disks/src/config/disk.rs:348] specifying to write new table on /dev/nvme0n1
+[INFO distinst:crates/disks/src/config/disk.rs:278] unmount all partitions on /dev/nvme0n1
+[INFO distinst:crates/disks/src/config/disk_trait.rs:118] checking if 4096:1023999 overlaps
+[INFO distinst:crates/disks/src/config/disk_trait.rs:118] checking if 1024000:9412607 overlaps
+[INFO distinst:crates/disks/src/config/disk_trait.rs:118] checking if 9412608:1945132463 overlaps
+[INFO distinst:crates/disks/src/config/disk_trait.rs:118] checking if 1945132464:1953521071 overlaps
+[ERROR distinst:ffi/src/lib.rs:48] libdistinst: pointer in FFI is null
+[ERROR distinst:ffi/src/lib.rs:48] libdistinst: pointer in FFI is null
+[ERROR distinst:ffi/src/lib.rs:48] libdistinst: pointer in FFI is null
+[INFO distinst:src/installer/state.rs:33] starting initializing step
+[INFO distinst:src/installer/steps/initialize.rs:15] Initializing
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/nvme0n1
+[INFO distinst:src/installer/steps/initialize.rs:20] config.squashfs: found at /cdrom/casper_pop-os_19.10_amd64_intel_debug_34/filesystem.squashfs
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/nvme0n1
+[INFO distinst:crates/disks/src/config/disks.rs:799] verifying if keyfiles have paths
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/disks/src/config/disks.rs:396] devices to modify: []
+[INFO distinst:crates/external/src/lvm.rs:207] obtaining list of physical volumes
+[INFO distinst:crates/disks/src/config/disks.rs:398] volume map: {}
+[INFO distinst:crates/external/src/lvm.rs:51] searching for device maps to deactivate
+[INFO distinst:crates/disks/src/config/disks.rs:400] pvs: []
+[INFO distinst:crates/disks/src/config/disks.rs:548] unmounting devices
+[INFO distinst:crates/disks/src/config/disk.rs:305] unmount all partitions with a target on /dev/nvme0n1
+[INFO distinst:src/installer/state.rs:33] starting partitioning step
+[INFO distinst:src/installer/steps/partition.rs:25] /dev/nvme0n1: Committing changes to disk
+[INFO distinst:crates/external/src/lvm.rs:207] obtaining list of physical volumes
+[INFO distinst:crates/disks/src/config/disk.rs:789] committing changes to /dev/nvme0n1: Disk {
+    model_name: "Samsung SSD 970 EVO Plus 1TB",
+    serial: "Samsung SSD 970 EVO Plus 1TB_S4P4NF0M319626N",
+    device_path: "/dev/nvme0n1",
+    file_system: None,
+    mount_point: None,
+    size: 1953525168,
+    device_type: "PED_DEVICE_NVME",
+    table_type: Some(
+        Gpt,
+    ),
+    read_only: false,
+    mklabel: true,
+    partitions: [
+        PartitionInfo {
+            bitflags: 4,
+            number: -1,
+            ordering: -1,
+            start_sector: 4096,
+            end_sector: 1023999,
+            part_type: Primary,
+            filesystem: Some(
+                Fat32,
+            ),
+            flags: [
+                PED_PARTITION_ESP,
+            ],
+            name: None,
+            device_path: "",
+            mount_point: None,
+            target: Some(
+                "/boot/efi",
+            ),
+            original_vg: None,
+            volume_group: None,
+            key_id: None,
+            identifiers: PartitionIdentifiers {
+                id: None,
+                label: None,
+                part_label: None,
+                part_uuid: None,
+                path: None,
+                uuid: None,
+            },
+        },
+        PartitionInfo {
+            bitflags: 4,
+            number: -1,
+            ordering: -1,
+            start_sector: 1024000,
+            end_sector: 9412607,
+            part_type: Primary,
+            filesystem: Some(
+                Fat32,
+            ),
+            flags: [],
+            name: Some(
+                "recovery",
+            ),
+            device_path: "",
+            mount_point: None,
+            target: Some(
+                "/recovery",
+            ),
+            original_vg: None,
+            volume_group: None,
+            key_id: None,
+            identifiers: PartitionIdentifiers {
+                id: None,
+                label: None,
+                part_label: None,
+                part_uuid: None,
+                path: None,
+                uuid: None,
+            },
+        },
+        PartitionInfo {
+            bitflags: 4,
+            number: -1,
+            ordering: -1,
+            start_sector: 9412608,
+            end_sector: 1945132463,
+            part_type: Primary,
+            filesystem: Some(
+                Ext4,
+            ),
+            flags: [],
+            name: None,
+            device_path: "",
+            mount_point: None,
+            target: Some(
+                "/",
+            ),
+            original_vg: None,
+            volume_group: None,
+            key_id: None,
+            identifiers: PartitionIdentifiers {
+                id: None,
+                label: None,
+                part_label: None,
+                part_uuid: None,
+                path: None,
+                uuid: None,
+            },
+        },
+        PartitionInfo {
+            bitflags: 4,
+            number: -1,
+            ordering: -1,
+            start_sector: 1945132464,
+            end_sector: 1953521071,
+            part_type: Primary,
+            filesystem: Some(
+                Swap,
+            ),
+            flags: [],
+            name: None,
+            device_path: "",
+            mount_point: None,
+            target: None,
+            original_vg: None,
+            volume_group: None,
+            key_id: None,
+            identifiers: PartitionIdentifiers {
+                id: None,
+                label: None,
+                part_label: None,
+                part_uuid: None,
+                path: None,
+                uuid: None,
+            },
+        },
+    ],
+}
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/nvme0n1
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/nvme0n1
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/disks/src/config/disk.rs:616] generating diff of disk at /dev/nvme0n1
+[INFO distinst:crates/disks/src/config/disk.rs:672] proposed layout:
+	-1: 4096 - 1023999
+	-1: 1024000 - 9412607
+	-1: 9412608 - 1945132463
+	-1: 1945132464 - 1953521071
+[INFO distinst:crates/disk-ops/src/ops.rs:50] /dev/nvme0n1: executing remove operations
+[INFO distinst:crates/external/src/block.rs:14] using wipefs to wipe signatures from "/dev/nvme0n1"
+[INFO distinst:crates/external/src/lib.rs:34] executing wipefs with ["-a", "/dev/nvme0n1"]
+[INFO distinst:crates/disk-ops/src/mklabel.rs:16] writing Gpt table on /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/ops.rs:94] /dev/nvme0n1: executing change operations
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/ops.rs:218] /dev/nvme0n1: executing creation operations
+[INFO distinst:crates/disk-ops/src/ops.rs:221] creating partition (PartitionCreate { path: "/dev/nvme0n1", start_sector: 4096, end_sector: 1023999, format: true, file_system: Some(Fat32), kind: Primary, flags: [PED_PARTITION_ESP], label: None }) on /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/mkpart.rs:75] creating new partition with 1019903 sectors: 4096 - 1023999
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/mkpart.rs:118] committing new partition (4096:1023999) on /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/ops.rs:221] creating partition (PartitionCreate { path: "/dev/nvme0n1", start_sector: 1024000, end_sector: 9412607, format: true, file_system: Some(Fat32), kind: Primary, flags: [], label: Some("recovery") }) on /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/mkpart.rs:75] creating new partition with 8388607 sectors: 1024000 - 9412607
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/mkpart.rs:118] committing new partition (1024000:9412607) on /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/ops.rs:221] creating partition (PartitionCreate { path: "/dev/nvme0n1", start_sector: 9412608, end_sector: 1945132463, format: true, file_system: Some(Ext4), kind: Primary, flags: [], label: None }) on /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/mkpart.rs:75] creating new partition with 1935719855 sectors: 9412608 - 1945132463
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/mkpart.rs:118] committing new partition (9412608:1945132463) on /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/ops.rs:221] creating partition (PartitionCreate { path: "/dev/nvme0n1", start_sector: 1945132464, end_sector: 1953521071, format: true, file_system: Some(Swap), kind: Primary, flags: [], label: None }) on /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:20] opening device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/mkpart.rs:75] creating new partition with 8388607 sectors: 1945132464 - 1953521071
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/mkpart.rs:118] committing new partition (1945132464:1953521071) on /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:62] committing changes to /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:78] syncing device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/external/src/lib.rs:34] executing blockdev with ["--flushbufs", "--rereadpt", "/dev/nvme0n1"]
+[INFO distinst:crates/disk-ops/src/ops.rs:292] executing format operations
+[INFO distinst:crates/disk-ops/src/ops.rs:296] formatting /dev/nvme0n1p1 with Fat32
+[INFO distinst:crates/disk-ops/src/ops.rs:296] formatting /dev/nvme0n1p2 with Fat32
+[INFO distinst:crates/disk-ops/src/ops.rs:296] formatting /dev/nvme0n1p3 with Ext4
+[INFO distinst:crates/disk-ops/src/ops.rs:296] formatting /dev/nvme0n1p4 with Swap
+[INFO distinst:crates/external/src/lib.rs:34] executing mkfs.fat with ["-F", "32", "/dev/nvme0n1p1"]
+[INFO distinst:crates/external/src/lib.rs:34] executing mkfs.fat with ["-F", "32", "/dev/nvme0n1p2"]
+[INFO distinst:crates/external/src/lib.rs:34] executing mkfs.ext4 with ["-F", "-q", "-E", "lazy_itable_init", "/dev/nvme0n1p3"]
+[INFO distinst:crates/disks/src/config/disk.rs:810] reloading disk information for /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:8] getting device at /dev/nvme0n1
+[INFO distinst:crates/disks/src/config/disk.rs:164] obtaining disk information from /dev/nvme0n1
+[INFO distinst:crates/disks/src/serial.rs:14] obtaining serial model from /dev/nvme0n1
+[INFO distinst:crates/disk-ops/src/parted.rs:31] opening disk at /dev/nvme0n1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:112] obtaining partition information from /dev/nvme0n1p1
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:112] obtaining partition information from /dev/nvme0n1p2
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:112] obtaining partition information from /dev/nvme0n1p3
+[INFO distinst:crates/disks/src/config/partitions/mod.rs:112] obtaining partition information from /dev/nvme0n1p4
+[INFO distinst:crates/disks/src/config/disk.rs:834] checking for mount target at 4096
+[INFO distinst:crates/disks/src/config/disk.rs:834] checking for mount target at 1024000
+[INFO distinst:crates/disks/src/config/disk.rs:834] checking for mount target at 9412608
+[INFO distinst:crates/external/src/lib.rs:34] executing blockdev with ["--flushbufs", "--rereadpt", "/dev/nvme0n1"]
+[INFO distinst:src/installer/mod.rs:168] mounting temporary chroot directory at distinst
+[INFO distinst:src/installer/mod.rs:173] mounting all targets to the temporary chroot
+[INFO distinst:crates/disks/src/config/disks.rs:242] mounting "/dev/nvme0n1p3" (ext4) to "/tmp/distinst.s9JuNVu0GEPl/"
+[INFO distinst:crates/disks/src/config/disks.rs:242] mounting "/dev/nvme0n1p1" (vfat) to "/tmp/distinst.s9JuNVu0GEPl/boot/efi"
+[INFO distinst:crates/disks/src/config/disks.rs:242] mounting "/dev/nvme0n1p2" (vfat) to "/tmp/distinst.s9JuNVu0GEPl/recovery"
+[INFO distinst:src/installer/state.rs:33] starting extracting step
+[INFO distinst:src/installer/mod.rs:411] Extracting /cdrom/casper_pop-os_19.10_amd64_intel_debug_34/filesystem.squashfs
+[DEBUG distinst:crates/squashfs/src/lib.rs:169] "unsquashfs" "-f" "-d" "/tmp/distinst.s9JuNVu0GEPl" "/cdrom/casper_pop-os_19.10_amd64_intel_debug_34/filesystem.squashfs"
+[ERROR distinst:src/installer/state.rs:37] extracting error: archive extraction failed with status: exit code: 1
+[ERROR distinst:src/installer/mod.rs:298] errored while installing system: archive extraction failed with status: exit code: 1
+[INFO distinst:ffi/src/installer.rs:188] Install error: archive extraction failed with status: exit code: 1
